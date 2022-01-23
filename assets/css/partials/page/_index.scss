@@ -1,0 +1,34 @@
+body{
+    font-family: 'Open Sans', sans-serif;
+}
+.learn-more-btn{
+    @extend %learn-more-btn
+}
+#content-and-image{
+    background-color: whitesmoke;
+    h3{
+        font-weight: bold;
+    }
+}
+#card{
+    .container{
+        h1{
+            font-weight: bold;
+        }
+    }
+    .card-top{
+        border: none;
+        .body{
+            h4{
+                font-weight: bold;
+            }
+        }
+    }
+}
+.white-square{
+    @extend %time;
+    .time{
+        margin: 0px;
+    }
+    
+}
